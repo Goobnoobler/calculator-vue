@@ -8,7 +8,7 @@ import { defineConfig, devices } from '@playwright/test'
 // require('dotenv').config();
 
 /* The Go API is a sibling repository; point this elsewhere if it is cloned somewhere else. */
-const backendDir = process.env.CALCULATOR_BACKEND_DIR ?? '../../calculator-go-main'
+const backendDir = process.env.CALCULATOR_BACKEND_DIR ?? '../calculator-go'
 
 /**
  * See https://playwright.dev/docs/test-configuration.
